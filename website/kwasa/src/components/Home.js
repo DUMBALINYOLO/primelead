@@ -22,7 +22,7 @@ const Home =() => {
 					</button>
 					<div className="collapse navbar-collapse">
 						<div className="collapse navbar-collapse" id="navbarMenu">
-							<ul className="navbar-nav mr-auto">
+							<ul className="navbar-nav ml-auto">
 								<li className="nav-item active">
 									<Link to="/" className="nav-link">Home</Link>
 								</li>
@@ -30,9 +30,6 @@ const Home =() => {
 									<Link to="/contacts" className="nav-link">Contact Us</Link>
 								</li>
 							</ul>
-							<form className="form-inline my-2 my-lg-0">
-								<button className="btn menu-right-btn border" type="submit">Template</button>
-							</form>
 						</div>
 					</div>
 				</nav>
@@ -42,12 +39,8 @@ const Home =() => {
 					<div className="site-content">
 						<div className="d-flex justify-content-center" data-aos="flip-right">
 							<div className="d-flex flex-column">
-								<h1 className="site-title">We Welcome You!!</h1>
-								<p className="site-desc">My name is kuvuki, how can l help you today. If none fuckoff!!</p>
-								<div className="d-flex flex-row">
-									<input type="button" value="Shop now" className="btn site-btn1 px-4 py-3 mr-4 btn-dark"/>
-									<input type="button" value="See Features" className="btn site-btn2 px-4 py-3 mr-4 btn-light"/>
-								</div>
+								<h1 className="site-title">We Welcome You to</h1>
+								<p className="site-desc">PRIME LEAD INVESTMENTS</p>
 							</div>
 						</div>
 					</div>
@@ -55,43 +48,42 @@ const Home =() => {
 
 				<div className="section-1">
 					<div className="container text-center">
-						<h1 className="heading-1">Fantastic Fetures</h1>
-						<h1 className="heading-2">& Different Types Of Offerings</h1>
-						<p className="para-1">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum,
-						a first-century BCE text by the Roman statesman and philosopher Cicero, with words
-						altered, added, and removed to make it nonsensical, improper Latin.
-						</p>
+						<h1 className="heading-1">Our Services</h1>
 						<div className="row justify-content-center text-center">
 							<div className="col-md-4">
 								<div className="card" data-aos="fade-left">
-									<img src={photo} alt="Image1" className="card-img-top"/>
 									<div className="card-body">
-										<h4 className="card-title">Responsive</h4>
-										<p className="card-text"> Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content has been created,
-										giving the design and production process more freedom.
-										</p>
+										<h4 className="card-title">Company Documents</h4>
+										<li>Certification of Incorporation</li>
+										<li>Memorandum and Articles of Association</li>
+										<li>CR6 Form (Company certificate stating registered company address)</li>
+										<li>CR14 Form (Company certificate with list of all directors)</li>
+										<li>Valid ZIMRA Tax Clearance Certificate / Bank Clearance Certificate</li>
 									</div>
 								</div>
 							</div>
 							<div className="col-md-4">
 							<div className="card" data-aos="fade-up">
-								<img src={photo1} alt="Image2" className="card-img-top"/>
 								<div className="card-body">
-									<h4 className="card-title">Flexible</h4>
-									<p className="card-text"> Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content has been created,
-									giving the design and production process more freedom.
-									</p>
+									<h4 className="card-title">Services Offered</h4>
+									<li>Course selection.</li>
+									<li>University selection.</li>
+									<li>Visa assistance.</li>
+									<li>Pre-departure and arrival services in universities.</li>
+									<li>Airport Pickup.</li>
+ 									<li>Accommodation.</li>
+									<li>Assistance in Travel Medical Insurance (TMI)</li>
 								</div>
 							</div>
 							</div>
 							<div className="col-md-4">
 							<div className="card" data-aos="fade-right">
-								<img src={photo2} alt="Image3" className="card-img-top"/>
 								<div className="card-body">
-									<h4 className="card-title">UI/UX</h4>
-									<p className="card-text"> Using Lorem Ipsum allows designers to put together layouts and the form of the content before the content has been created,
-									giving the design and production process more freedom.
-									</p>
+									<h4 className="card-title">TRADE REFERENCES</h4>
+									<li>Ganpat University, India</li>
+									<li>Lazarski University, Poland</li>
+									<li>Rusvus, Russia</li>
+									<li>Elic, China</li>
 								</div>
 							</div>
 							</div>
@@ -107,7 +99,9 @@ const Home =() => {
 								<p className="para" data-aos="fade-up"> Also known as filler or dummy text, this is simply copy
 								that serves to fill a space without actually saying anything meaningful. It’s essentially nonsense text, but gives an idea of what real text will look like in the final product.
 								</p>
-								<input  data-aos="fade-left" type="button" value="Show" className="btn btn-danger" />
+								<Link to="/contacts" className="nav-link">
+									<input  data-aos="fade-left" type="button" value="Share" className="btn btn-danger" />
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -115,17 +109,14 @@ const Home =() => {
 
 				<div className="section-3">
 					<div className="container">
+					<h1 className="heading-1">About Us</h1>
 						<div className="row">
 							<div className="col-md-4" data-aos="fade-left">
 								<div className="d-flex flex-row">
 									<i className="fas fa-question fa-3x m-2"></i>
 									<div className="d-flex flex-column">
 										<h3 className="m-2">24/7 Support</h3>
-										<p className="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-										ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-										aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-										eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-										mollit anim id est laborum.
+										<p className="m-2">We make each person's conversation more powerful by enabling continuous, visually rich, and contextual conversations on their time, wherever they are, on their most preferred channel.
 										</p>
 									</div>
 								</div>
@@ -134,12 +125,9 @@ const Home =() => {
 								<div className="d-flex flex-row">
 									<i className="fas fa-seedling fa-3x m-2"></i>
 									<div className="d-flex flex-column">
-										<h3 className="m-2">Marketing</h3>
-										<p className="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-										ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-										aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-										eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-										mollit anim id est laborum.
+										<h3 className="m-2">Mission</h3>
+										<p className="m-2">Operate according to the highest standards to guide students who are planning to study abroad in
+line with the laws of Zimbabwe.
 										</p>
 									</div>
 								</div>
@@ -148,12 +136,9 @@ const Home =() => {
 								<div className="d-flex flex-row">
 									<i className="fas fa-rocket fa-3x m-2"></i>
 									<div className="d-flex flex-column">
-										<h3 className="m-2">Speed</h3>
-										<p className="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-										ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-										aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-										eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-										mollit anim id est laborum.
+										<h3 className="m-2">Vision</h3>
+										<p className="m-2">Introduce more options of courses with practical attachment offered by various foreign
+institutions.
 										</p>
 									</div>
 								</div>

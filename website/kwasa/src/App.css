@@ -65,8 +65,9 @@ body {
     font-size: 50px;
 }
 .site-desc {
-    font-size: 14px;
+    font-size: 30px;
     padding-left: 15%;
+    margin-bottom: 35%;
 }
 .site-btn1 {
     margin-left: 20%;
@@ -88,14 +89,18 @@ h2 {
 
 /*section*/
 .section-1 .heading-1 {
-    marigin-top: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+
 }
 .card {
     width: 20rem;
 }
 .section-1 .heading-2 {
-    marigin-top: 5%;
+    margin-top: 5%;
     font-size: 39px;
+    margin-bottom: 5%;
+
 }
 .section-1 .para-1 {
     width: 60%;
@@ -143,6 +148,12 @@ h2 {
 }
 .section-3 p {
     color: rgba( 0, 0, 0, 0.59);
+}
+.section-3 .heading-1 {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+
 }
 
 /*section 4*/

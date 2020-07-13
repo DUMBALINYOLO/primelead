@@ -22,8 +22,8 @@ class Contacts extends Component{
     onSubmit = (e) => {
       e.preventDefault();
       const { name, email, subject, message } = this.state;
-      const contact = { name, email, subject, message };
-      this.props.addContact(contact);
+      const contacts = { name, email, subject, message };
+      this.props.addContact(contacts);
 
     };
 
