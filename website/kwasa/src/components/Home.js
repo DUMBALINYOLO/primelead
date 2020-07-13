@@ -1,8 +1,5 @@
 import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
-import photo from "./img/pexels-2.png";
-import photo1 from "./img/pexels-5.png";
-import photo2 from "./img/pexels-4.png";
 import photo3 from "./img/pexels-7.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -54,11 +51,11 @@ const Home =() => {
 								<div className="card" data-aos="fade-left">
 									<div className="card-body">
 										<h4 className="card-title">Company Documents</h4>
-										<li>Certification of Incorporation</li>
-										<li>Memorandum and Articles of Association</li>
-										<li>CR6 Form (Company certificate stating registered company address)</li>
-										<li>CR14 Form (Company certificate with list of all directors)</li>
-										<li>Valid ZIMRA Tax Clearance Certificate / Bank Clearance Certificate</li>
+										<ul>Certification of Incorporation</ul>
+										<ul>Memorandum and Articles of Association</ul>
+										<ul>CR6 Form (Company certificate stating registered company address)</ul>
+										<ul>CR14 Form (Company certificate with list of all directors)</ul>
+										<ul>Valid ZIMRA Tax Clearance Certificate / Bank Clearance Certificate</ul>
 									</div>
 								</div>
 							</div>
@@ -66,13 +63,13 @@ const Home =() => {
 							<div className="card" data-aos="fade-up">
 								<div className="card-body">
 									<h4 className="card-title">Services Offered</h4>
-									<li>Course selection.</li>
-									<li>University selection.</li>
-									<li>Visa assistance.</li>
-									<li>Pre-departure and arrival services in universities.</li>
-									<li>Airport Pickup.</li>
- 									<li>Accommodation.</li>
-									<li>Assistance in Travel Medical Insurance (TMI)</li>
+									<ul>Course selection.</ul>
+									<ul>University selection.</ul>
+									<ul>Visa assistance.</ul>
+									<ul>Pre-departure and arrival services in universities.</ul>
+									<ul>Airport Pickup.</ul>
+ 									<ul>Accommodation.</ul>
+									<ul>Assistance in Travel Medical Insurance (TMI)</ul>
 								</div>
 							</div>
 							</div>
@@ -80,10 +77,10 @@ const Home =() => {
 							<div className="card" data-aos="fade-right">
 								<div className="card-body">
 									<h4 className="card-title">TRADE REFERENCES</h4>
-									<li>Ganpat University, India</li>
-									<li>Lazarski University, Poland</li>
-									<li>Rusvus, Russia</li>
-									<li>Elic, China</li>
+									<ul>Ganpat University, India</ul>
+									<ul>Lazarski University, Poland</ul>
+									<ul>Rusvus, Russia</ul>
+									<ul>Elic, China</ul>
 								</div>
 							</div>
 							</div>
@@ -95,9 +92,10 @@ const Home =() => {
 					<div className="container-fluid">
 						<div className="d-flex justify-content-end">
 							<div className="d-flex flex-column m-4">
-								<h1 className="heading-1" data-aos="fade-down">Like & Share Your Love</h1>
-								<p className="para" data-aos="fade-up"> Also known as filler or dummy text, this is simply copy
-								that serves to fill a space without actually saying anything meaningful. It’s essentially nonsense text, but gives an idea of what real text will look like in the final product.
+								<h1 className="heading-1" data-aos="fade-down">Like And Share Your Love</h1>
+								<p className="para" data-aos="fade-up">PRIME LEAD INVESTMENTS informs and inspires students, providing them
+with all the necessary skills and knowledge needed to engage effectively and easily with the
+local as well as global communities to become culturally perceptive citizens.
 								</p>
 								<Link to="/contacts" className="nav-link">
 									<input  data-aos="fade-left" type="button" value="Share" className="btn btn-danger" />
@@ -113,10 +111,10 @@ const Home =() => {
 						<div className="row">
 							<div className="col-md-4" data-aos="fade-left">
 								<div className="d-flex flex-row">
-									<i className="fas fa-question fa-3x m-2"></i>
+									<i className="fas fa-user-shield fa-3x m-2"></i>
 									<div className="d-flex flex-column">
-										<h3 className="m-2">24/7 Support</h3>
-										<p className="m-2">We make each person's conversation more powerful by enabling continuous, visually rich, and contextual conversations on their time, wherever they are, on their most preferred channel.
+										<h3 className="m-2">Authorised</h3>
+										<p className="m-2">For Convenient International Scholarship Assistance, International Study Courses Selection, Visa Assistance, Immigration Assistance, Registration for Entrance and English Tests and International Education Counselling, Prime Lead Consultancy is your best friend!!!!!!!
 										</p>
 									</div>
 								</div>
@@ -147,14 +145,10 @@ institutions.
 						<div className="row mt-2">
 							<div className="col-md-4" data-aos="fade-left">
 								<div className="d-flex flex-row">
-									<i className="fas fa-user-shield fa-3x m-2"></i>
+									<i className="fas fa-question fa-3x m-2"></i>
 									<div className="d-flex flex-column">
-										<h3 className="m-2">Authorised</h3>
-										<p className="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-										ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-										aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-										eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-										mollit anim id est laborum.
+										<h3 className="m-2">24/7 Support</h3>
+										<p className="m-2">We make each person's conversation more powerful by enabling continuous, visually rich, and contextual conversations on their time, wherever they are, on their most preferred channel.
 										</p>
 									</div>
 								</div>
@@ -164,11 +158,7 @@ institutions.
 									<i className="fas fa-search fa-3x m-2"></i>
 									<div className="d-flex flex-column">
 										<h3 className="m-2">SEO</h3>
-										<p className="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-										ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-										aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-										eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-										mollit anim id est laborum.
+										<p className="m-2">primeleadconsultancy@gmail.com.
 										</p>
 									</div>
 								</div>
@@ -177,12 +167,9 @@ institutions.
 								<div className="d-flex flex-row">
 									<i className="fas fa-sliders-h fa-3x m-2"></i>
 									<div className="d-flex flex-column">
-										<h3 className="m-2">Customize</h3>
-										<p className="m-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-										ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-										aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-										eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-										mollit anim id est laborum.
+										<h3 className="m-2">Customization</h3>
+										<p className="m-2">Renders end to
+end services in visa assistance, travel assistance and admissions at various overseas institutions.
 										</p>
 									</div>
 								</div>
@@ -195,14 +182,12 @@ institutions.
 					<div className="container">
 						<div className="row">
 							<div className="col-md-7" data-aos="fade-left">
-								<img src={photo3} alt="Image-7" width="590"/>
+								<img src={photo3} alt="" width="590"/>
 							</div>
 							<div className="col-md-5" data-aos="fade-right">
-								<h1 className="text-white">Don't know where to start from</h1>
+								<h1 className="text-white">COMPANY BACKGROUND</h1>
 								<Link to="/">Join Us </Link>
-								<p className="para-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-								aliquip ex ea commodo consequat.
+								<p className="para-1 d-flex">Prime Lead Consultancy prides itself as a leading Consultancy Company that assists Students from various backgrounds with opportunities to Study Abroad. We help students with the wish to study abroad with Education Counselling and Scholarship Assistance.
 								</p>
 							</div>
 						</div>
@@ -212,7 +197,6 @@ institutions.
 
 			<footer>
 				<div className="section-5 text-center">
-					<h4 style={{margin:"5%"}}>Get Your Products From Our Convinience Online Store</h4>
 					<h4 className="my-4">If you need any help</h4>
 					<div className="form-inline justify-content-center">
 						<input data-aos="fade-right" type="email" name="Email" id="email" placeholder="Email" size="40" className="form-control px-4 py-2"/>
@@ -227,7 +211,7 @@ institutions.
 						</div>
 					</div>
 					<hr/>
-					<h5 style={{color: "lightseagreen"}}>Melcin fair &copy;{`${new Date().getFullYear()}`}</h5>
+					<h5 style={{color: "lightseagreen"}}>PRIME LEAD CONSULTANCY &copy;{`${new Date().getFullYear()}`}</h5>
 				</div>
 			</footer>
 		</>

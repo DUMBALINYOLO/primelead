@@ -38,7 +38,7 @@ class Contacts extends Component{
                 <h2 className="display-6 text-uppercase text-center py-3">Contact Us</h2>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-row mr-auto">
-                        <div className="justify-content-center mb-4 col-md-6">
+                        <div className="justify-content-center mb-4 col-md-12">
                             <input type="text"
                             size="40"
                             className="form-control px-4 py-2"
@@ -65,7 +65,7 @@ class Contacts extends Component{
                             onChange={this.onChange}
                             value={subject}/>
                         </div>
-                        <div className="justify-content-center mb-4 col-md-6">
+                        <div className="justify-content-center mb-4 col-md-12">
                             <textarea
                             cols='30'
                             rows='10'
@@ -76,7 +76,7 @@ class Contacts extends Component{
                             value={message}/>
                         </div>
                     </div>
-                    <button className="btn btn-primary">submit</button>
+                    <button className="btn btn-primary btn-center">submit</button>
                 </form>
             </div>
         );
