@@ -31,7 +31,7 @@ class Contact extends React.Component {
         <div className={classes.container}>
           <div className={classes.contactBubble}>
             <Title title="Say hello to us" align="left" nomargin />
-            <Typography component="p" className={classes.contactText}>Vivamus et luctus mauris. Maecenas nisl libero, tincidunt id odio id, feugiat vulputate quam. Vestibulum feugiat rhoncus metus. In non erat et ipsum molestie porta sit amet ut felis.</Typography>
+            <Typography component="p" className={classes.contactText}>+263 776 320 294, +263 714 286 727, +263 734 326 631 <br/> primeleadconsultancy@gmail.com</Typography>
             <Grid container spacing={3}>
               <Grid item lg={6} xs={12}>
                 <FormControl className={classes.formControl}>
