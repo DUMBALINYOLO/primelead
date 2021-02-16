@@ -16,7 +16,7 @@ import {
 
 const initialState = {
   /* Settings for Themes and layout */
-  theme: 'cyanTheme',
+  theme: 'skyBlueTheme',
   direction: 'ltr',
   type: 'dark', // light or dark
   gradient: true, // true or false

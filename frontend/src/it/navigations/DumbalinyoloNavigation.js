@@ -81,13 +81,9 @@ class DumbalinyoloNavigation extends React.Component {
               className={classNames(classes.profile, classes.user)}
               style={{ opacity: 1 - (transform / 100), marginTop: transform * -0.3 }}
             >
-              <Avatar
-                alt={dummy.user.name}
-                src={dummy.user.avatar}
-                className={classNames(classes.avatar, classes.bigAvatar)}
-              />
+              
               <div>
-                <h4>{dummy.user.name}</h4>
+               
                 <Button size="small" onClick={openMenuStatus}>
                   <i className={classNames(classes.dotStatus, setStatus(status))} />
                   {status}
@@ -103,18 +99,7 @@ class DumbalinyoloNavigation extends React.Component {
                     <i className={classNames(classes.dotStatus, classes.online)} />
                     Online
                   </MenuItem>
-                  <MenuItem onClick={() => changeStatus('idle')}>
-                    <i className={classNames(classes.dotStatus, classes.idle)} />
-                    Idle
-                  </MenuItem>
-                  <MenuItem onClick={() => changeStatus('bussy')}>
-                    <i className={classNames(classes.dotStatus, classes.bussy)} />
-                    Bussy
-                  </MenuItem>
-                  <MenuItem onClick={() => changeStatus('offline')}>
-                    <i className={classNames(classes.dotStatus, classes.offline)} />
-                    Offline
-                  </MenuItem>
+                  
                 </Menu>
 
               </div>
