@@ -22,9 +22,9 @@ function createFeatureData(icon, title, desc) {
 class Feature extends React.Component {
   state = {
     featureList: [
-      createFeatureData('ion-ios-infinite-outline', 'Vision', 'Introduce more options of courses with practical attachment offered by various foreign institutions.'),
-      createFeatureData('ion-ios-flower-outline', 'Mission', 'Operate according to the highest standards to guide students who are planning to study abroad in line with the laws of Zimbabwe.'),
-      createFeatureData('ion-ios-ionic-outline', 'Lorem ipsum dolor', 'Nulla lobortis nunc vitae nisi semper semper. Sed mi neque, convallis at ipsum at, blandit pretium enim.')
+      createFeatureData('ion-ios-infinite-outline', 'Vision', 'To be the market leader in providing one-stop study abroad solutions for the students and successfully place students for the course at an institution only that are in the best interest of the student or their profile. To help them achieve their goals through proper career counseling & guidance, to add value for our partner institutions and all other stakeholders. To provide effortless and distinctive quality service and commit to improve continually.'),
+      createFeatureData('ion-ios-flower-outline', 'Mission', 'We aim to take leadership in matching the student’s abilities, performance, and desires with the best possible career options. To provide customized solutions to the students aspiring to study overseas. Strive for the organic growth of our organization through integrity, honesty, excellence and to uphold the excellence of higher education by providing inclusive, competent and professional supports to student community and educational institutions. To build a strong and credible relationship with the partner institutions by recognizing shared values & goals.'),
+      createFeatureData('ion-ios-ionic-outline', 'Our Values', 'Honesty, Integrity and Objectivity. Open Communication and Transparency. Professional Skills and Due Care. Confidentiality and Professional Behavior. Inclusiveness, Impartiality and Respect. Consideration, Empathy and Inspiration. Culture of diversity, Innovation and Creativity. Best Value Education. Enterprising Gene and Advance Developing Economy.')
     ]
   }
 
@@ -34,7 +34,7 @@ class Feature extends React.Component {
     return (
       <div className={classNames(classes.feature, slideMode ? classes.mono : classes.color)}>
         <div className={!slideMode ? classes.container : ''}>
-          <Title title="PRIMELEAD" align="center" monocolor={slideMode && true} />
+          <Title title="PRIME LEAD CONSULTANCY" align="center" monocolor={slideMode && true} />
           <Grid container className={classes.root} spacing={5}>
             { featureList.map(item => (
               <Grid key={item.id.toString()} item xs={12} md={4}>

@@ -85,20 +85,20 @@ class Technology extends React.Component {
       <div className={classes.tech}>
         {!slideMode && (<ParallaxDecoStyled />)}
         <div className={slideMode ? classes.fullWidth : classes.container}>
-          <Title title="OUR MISSION" desc="NOTHING FOR US WITHOUT US" align="center" monocolor={slideMode && true} />
+          <Title title="KEY SKILLS AND CORE COMPETENCES GAINED" desc="NOTHING FOR US WITHOUT US" align="center" monocolor={slideMode && true} />
           <Grid container className={classes.root} spacing={3}>
             <Grid item sm={4} xs={12}>
               <div className={classNames(classes.wool, slideMode && classes.slideMode)}>
                 <figure>
                   <img src={v2} alt="react" />
                 </figure>
-                <Typography variant="h5" className={classes.react}>ENTERPRISE</Typography>
+                <Typography variant="h5" className={classes.react}>MAINTAINING FOCUS</Typography>
               </div>
               <div className={classNames(classes.wool, slideMode && classes.slideMode)}>
                 <figure>
                   <img src={v1} alt="react router" />
                 </figure>
-                <Typography variant="h5" className={classes.router}>EDUCATE</Typography>
+                <Typography variant="h5" className={classes.router}>TEAMWORK</Typography>
               </div>
             </Grid>
             <Grid item sm={4} xs={12}>
@@ -118,7 +118,7 @@ class Technology extends React.Component {
                   <figure>
                     <img src={v3} alt="webpack" />
                   </figure>
-                  <Typography variant="h5" className={classes.webpack}>VALUE ADDITION</Typography>
+                  <Typography variant="h5" className={classes.webpack}>KNOWLEDGE</Typography>
                 </div>
               </div>
             </Grid>
@@ -127,13 +127,13 @@ class Technology extends React.Component {
                 <figure>
                   <img src={v4} alt="mui" />
                 </figure>
-                <Typography variant="h5" className={classes.mui}>FIND</Typography>
+                <Typography variant="h5" className={classes.mui}>MARKETING AND PROMOTIONS</Typography>
               </div>
               <div className={classNames(classes.wool, slideMode && classes.slideMode)}>
                 <figure>
                   <img src={v6} alt="jss" />
                 </figure>
-                <Typography variant="h5" className={classes.jss}>SUSTAINABILITY</Typography>
+                <Typography variant="h5" className={classes.jss}>INTELLIGENCE</Typography>
               </div>
             </Grid>
           </Grid>

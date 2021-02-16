@@ -47,14 +47,6 @@ const navigationConfig = [
         exact: true,
         icon: <AccountBalanceIcon/>
       },
-      {
-        id: "news",
-        title: "NEWSLETTER",
-        type: "item",
-        url: "/blog",
-        exact: true,
-        icon: <ShutterSpeedIcon  />
-      },
     ],
   },
 ];

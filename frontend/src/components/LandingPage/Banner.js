@@ -8,6 +8,7 @@ import Hidden from '@material-ui/core/Hidden';
 import Typography from '@material-ui/core/Typography';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import { withStyles } from '@material-ui/core/styles';
+import link from '../../api/ui/link';
 import styles from './landingStyle-jss';
 import one from './images/6.jpeg';
 import two from './images/7.jpeg';
@@ -74,16 +75,19 @@ class Banner extends React.Component {
           )
         }
       >
+
         {!slideMode && <ParallaxDecoStyled />}
         <div className={!slideMode ? classes.container : ''}>
-          <Typography component="h2" variant="h2" gutterBottom>PRIMELEAD CONSULTANCY</Typography>
-          <Typography component="p" variant="h5" gutterBottom>STUDY ABROAD WITH PRIMELEAD CONSULTANCY</Typography>
+          <Typography component="h2" variant="h2" gutterBottom>PRIME LEAD CONSULTANCY</Typography>
+          <Typography component="p" variant="h5" gutterBottom>Leading Education Consultancy providing the best Guidance to the students who want to study abroad.  We help and give the proper path to Study Abroad.</Typography>
           <div className={classes.btnArea}>
             <Link style={{ textDecoration: 'none', color: 'white' }} to="/about-us">
               <Button
                 size="large"
                 variant="outlined"
                 className={classNames(classes.button, classes.btnLight)}
+                component={Link}
+                to={link.about}
               >
                 More About Us
               </Button>
@@ -93,8 +97,10 @@ class Banner extends React.Component {
               variant="contained"
               color="secondary"
               className={classes.button}
+              component={Link}
+              to={link.about}
             >
-              We Serve
+              Share Fun
             </Button>
           </div>
           <div className={classes.previewApp}>
