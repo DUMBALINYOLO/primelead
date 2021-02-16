@@ -155,16 +155,6 @@ class Header extends React.Component {
                     </IconButton>
                   </Tooltip>
                 )}
-                <Tooltip title="Turn Dark/Light" placement="bottom">
-                  <IconButton className={classes.button} onClick={() => this.turnMode(mode)}>
-                    <i className="ion-ios-lightbulb-outline" />
-                  </IconButton>
-                </Tooltip>
-                <Tooltip title="Show Guide" placement="bottom">
-                  <IconButton className={classes.button} onClick={openGuide}>
-                    <i className="ion-ios-help-outline" />
-                  </IconButton>
-                </Tooltip>
               </div>
               <Typography component="h2" className={classNames(classes.headerTitle, showTitle && classes.show)}>
                 {title}

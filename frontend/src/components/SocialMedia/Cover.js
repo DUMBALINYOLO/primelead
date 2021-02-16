@@ -79,7 +79,6 @@ class Cover extends React.Component {
           </Menu>
         </div>
         <div className={classes.content}>
-          <Avatar alt={name} src={avatar} className={classes.avatar} />
           <Typography variant="h4" className={classes.name} gutterBottom>
             {name}
             <VerifiedUser className={classes.verified} />

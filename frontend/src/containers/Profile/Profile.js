@@ -42,7 +42,7 @@ TabContainer.propTypes = {
 
 class CompanyProfile extends React.Component {
   state = {
-    value: 0.001
+    value: 0
   };
 
   componentDidMount() {
@@ -61,7 +61,7 @@ class CompanyProfile extends React.Component {
     const { value } = this.state;
     return (
       <div>
-        
+
         <Helmet>
           <title>{title}</title>
           <meta name="description" content={description} />
