@@ -166,13 +166,11 @@ class Header extends React.Component {
               <div className={classes.search}>
                 <SearchIcon />
               </div>
-              <SearchUi history={history} />
             </div>
           </div>
           <Hidden xsDown>
             <span className={classes.separatorV} />
           </Hidden>
-          <UserMenu />
         </Toolbar>
       </AppBar>
     );
