@@ -17,13 +17,13 @@ function App() {
             
             <Route exact path='/' component={LandingPage} />
             <Route exact path='/about-us' component={CompanyProfile} />
-            <Route exact path='/blog' component={Posts} />
           </Switch>
         )}
       </AppContext.Consumer>
     </ThemeWrapper>
   );
 }
+
 
 
 
