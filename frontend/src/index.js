@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import store from './store';
 import {Provider} from 'react-redux';
 import 'sanitize.css/sanitize.css';
@@ -18,5 +18,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('app')
 );
+
 
 
