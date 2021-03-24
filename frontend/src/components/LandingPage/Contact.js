@@ -33,7 +33,7 @@ class Contact extends React.Component {
             <Title title="Say hello to us" align="left" nomargin />
             <Typography component="p" className={classes.contactText}>+263 776 320 294, +263 714 286 727, +263 734 326 631 <br/> primeleadconsultancy@gmail.com</Typography>
             <Grid container spacing={3}>
-              <Grid item lg={6} xs={12}>
+              <Grid item lg={12} xs={12}>
                 <FormControl className={classes.formControl}>
                   <TextField
                     fullWidth
@@ -59,7 +59,7 @@ class Contact extends React.Component {
                   />
                 </FormControl>
               </Grid>
-              <Grid item lg={6} xs={12}>
+              <Grid item lg={12} xs={12}>
                 <FormControl className={classes.formControl}>
                   <TextField
                     fullWidth
